@@ -21,6 +21,10 @@
         <!-- Credits: http://fortawesome.github.io/Font-Awesome/icons/ -->
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
+        <!-- CSS | Colors -->
+        <link rel="stylesheet" type="text/css" href="css/colors/DarkBlue.css" id="colors-style" />
+        <link rel="stylesheet" type="text/css" href="css/switcher.css" />
+
         <!-- CSS | animate -->
         <!-- Credits: http://daneden.github.io/animate.css/ -->
         <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
@@ -28,21 +32,19 @@
         <!-- CSS | Normalize -->
         <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
         <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
-       	
-        <!-- CSS | Colors -->
-        <link rel="stylesheet" type="text/css" href="css/colors/DarkBlue.css" id="colors-style" />
-        <link rel="stylesheet" type="text/css" href="css/switcher.css" />
-        
+
+        <!-- CSS | Google Fonts -->
+        <link href='http://fonts.useso.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
         <!-- CSS | Style -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -->
         <link rel="stylesheet" type="text/css" href="css/main.css" />
 
         <!-- CSS | prettyPhoto -->
         <!-- Credits: http://www.no-margin-for-errors.com/ -->
-        <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"/> 
+        <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"/>
 
-		<!-- CSS | Google Fonts -->
-        <link href='http://fonts.useso.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
 
@@ -51,20 +53,35 @@
         <![endif]-->
 
         <style>
+
             @media only screen and (max-width : 991px){
                 .resp-vtabs .resp-tabs-container {
-                    margin-left: 13px;
+                    margin-left: 0px !important;
+                }
+                .resp-vtabs ul.resp-tabs-list {
+                    width: 10%;
+                    margin-right: 2px !important;
                 }
             }
-			
-			@media only screen and (min-width : 800px) and (max-width : 991px){
-                .resp-vtabs .resp-tabs-container {
-                    margin-left: 13px;
-					width:89%;
+
+            @media only screen and (max-width : 800px){
+
+                .widget-profil {
+                    float: none !important;
                 }
-            }		
+            }
+
+            .widget-profil {
+                float: left;
+            }
+
+            .resp-vtabs ul.resp-tabs-list {
+                float: right;
+            }
+
 
         </style>
+
 
     </head>
 
@@ -76,6 +93,7 @@
 
         <!-- Laoding page -->
         <div id="preloader"><div id="spinner"></div></div>
+
 
         <!-- .slideshow -->
         <ul class="cb-slideshow" id="cb_slideshow" style="display:none">
@@ -102,6 +120,7 @@
                             <div class="row">   
 
                                 <div class="col-md-3 widget-profil">
+
                                     <div class="row">
 
     <!-- Profile Image -->
@@ -135,9 +154,9 @@
     
         <!-- Profile info -->
         <div id="profile_info">
-            <h1 id="name" class="transition-02">fanhe ma</h1>
-            <h4 class="line">R &amp; D ENGINEER</h4>
-            <h6><span class="fa fa-map-marker"></span> Xuzhou Jiangsu , CN</h6>
+            <h1 id="name" class="transition-02">brown smith</h1>
+            <h4 class="line">GRAPHIC &amp; WEB DESIGNER</h4>
+            <h6><span class="fa fa-map-marker"></span> San Francisco , CA</h6>
         </div>
         <!-- End Profile info -->  
     	
@@ -145,9 +164,11 @@
         <!-- Profile Description -->
         <div id="profile_desc">
             <p>
-            	I am a coder with skills always keep moving. I believe I can change the world, make the word better
+            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac risus nibh. Donec adipiscing luctus tur
             </p>
-            
+            <p>
+            	Lorem ipsum dolor sit amet, consectetur adipiscing eli
+            </p>
         </div>
         <!-- End Profile Description -->  
     	
@@ -155,7 +176,6 @@
         <!-- Name -->
          <div id="profile_social">
             <h6>My Social Profiles</h6>
-			
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -169,7 +189,8 @@
     
     </div>
   
-</div>                                </div>
+</div>
+                                </div>
 
                                 <div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
 
@@ -204,6 +225,7 @@
 
                                             <a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
                                             <a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
+
                                         </ul>
                                         <!-- /resp-tabs-list -->
 
@@ -222,7 +244,7 @@
  		
         <!--About me-->
         <div class="title_content">
-            <div class="text_content">fanhe ma</div>
+            <div class="text_content">brown smith</div>
             <div class="clear"></div>
         </div>
 
@@ -231,42 +253,42 @@
             <li>
                 <i class="glyphicon glyphicon-user"></i>
                 <label>Name</label>
-                <span class="value">Fanhe Ma</span>
+                <span class="value">Brown Smith</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-calendar"></i>
                 <label>Date of birth</label>
-                <span class="value">October 24, 1992</span>
+                <span class="value">March 18, 1988</span>
                 <div class="clear"></div>
             </li>
 
             <li> 
                 <i class="glyphicon glyphicon-map-marker"></i>
                 <label>Adress</label>
-                <span class="value">Xuzhou Jiangsu, CN</span>
+                <span class="value">San Francisco , CA</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-envelope"></i>
                 <label>Email</label>
-                <span class="value">827149941@qq.com</span>
+                <span class="value">brown.smith@gmail.com</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-phone"></i>
                 <label>Phone</label>
-                <span class="value">18251901638</span>
+                <span class="value">+123 (21) 1234-5678</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-globe"></i>
                 <label>Website</label>
-                <span class="value"><a href="#" target="_blank">mafanhe.github.io</a></span>
+                <span class="value"><a href="#" target="_blank">www.brown-smith.com</a></span>
                 <div class="clear"></div>
             </li>
 
@@ -275,12 +297,12 @@
 
         <p style="margin-bottom:20px">
             <i class="fa fa-quote-left"></i>       
-            Information test.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec nulla sagittis, scelerisque mi vitae, congue turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec nulla sagittis, scelerisque mi vitae, congue turpis.
         </p>
         
          <p style="margin-bottom:20px">
             <i class="fa fa-quote-left"></i>       
-            Information test. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec nulla sagittis, scelerisque mi vitae, congue turpis. 
 
         </p>
 
@@ -315,7 +337,7 @@
                     <div class="service-icon"><i class="fa fa-tag"></i></div>
                     <div class="service-detail">
                         <h6>Making Money</h6>
-                        <p>Information test.</p>
+                        <p>Fusce quis interdum ipsum.Suspendi suscipit vehicula sapienid mattis. Lorem ipsum amet consectetur.</p>
                     </div>
                 </div>
             </div>
@@ -324,7 +346,7 @@
                     <div class="service-icon"><i class="fa fa-cogs"></i></div>
                     <div class="service-detail">
                         <h6>Easy to Customize</h6>
-                        <p>Information test.</p>
+                        <p>Fusce quis interdum ipsum.Suspendi suscipit vehicula sapienid mattis. Lorem ipsum amet consectetur.</p>
                     </div>
                 </div>
             </div>
@@ -333,12 +355,14 @@
                     <div class="service-icon"><i class="fa fa-arrows-alt"></i></div>
                     <div class="service-detail">
                         <h6>Moving Let Us Help</h6>
-                        <p>Information test.</p>
+                        <p>Fusce quis interdum ipsum.Suspendi suscipit vehicula sapienid mattis. Lorem ipsum amet consectetur.</p>
                     </div>
                 </div>
             </div>
          </div> 
     </div><!-- End Services -->
+
+
     <div class="clear"></div>
     <div class="border-list"></div>
 	
@@ -362,7 +386,7 @@
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse in">
                         <div class="panel-body">
-                            <i class="fa fa-quote-left"></i>  Information test.
+                            <i class="fa fa-quote-left"></i>  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
                     </div>
                 </div>
@@ -377,7 +401,7 @@
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <i class="fa fa-quote-left"></i>  Information test.
+                            <i class="fa fa-quote-left"></i>  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
                     </div>
                 </div>
@@ -392,7 +416,7 @@
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <i class="fa fa-quote-left"></i>  Information test.
+                            <i class="fa fa-quote-left"></i>  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
                     </div>
                 </div>
@@ -596,7 +620,7 @@
         <div class="skills">
             <!-- .skillbar -->
             <div class="skillbar clearfix" data-percent="90%">
-                <div class="skillbar-title"><span>Chinese</span></div>
+                <div class="skillbar-title"><span>English</span></div>
                 <div class="skillbar-bar"></div>
                 <div class="skill-bar-percent">90%</div>
             </div>
@@ -604,7 +628,7 @@
             
             <!-- .skillbar -->
             <div class="skillbar clearfix " data-percent="80%">
-                <div class="skillbar-title"><span>English</span></div>
+                <div class="skillbar-title"><span>French</span></div>
                 <div class="skillbar-bar"></div>
                 <div class="skill-bar-percent">80%</div>
             </div>
@@ -612,7 +636,7 @@
             
             <!-- .skillbar -->
             <div class="skillbar clearfix " data-percent="50%">
-                <div class="skillbar-title"><span>Japanese</span></div>
+                <div class="skillbar-title"><span>Spanish</span></div>
                 <div class="skillbar-bar"></div>
                 <div class="skill-bar-percent">50%</div>
             </div>
@@ -620,9 +644,9 @@
             
             <!-- .skillbar -->
             <div class="skillbar clearfix " data-percent="60%">
-                <div class="skillbar-title"><span>FangYan</span></div>
+                <div class="skillbar-title"><span>Swiss</span></div>
                 <div class="skillbar-bar"></div>
-                <div class="skill-bar-percent">100%</div>
+                <div class="skill-bar-percent">60%</div>
             </div>
             <!-- /.skillbar -->
         </div>
@@ -660,12 +684,12 @@
             <li class="first">
                 <h5>Web Developer <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2013</span></h5>
                 <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
-                <p>Information test.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
             </li>
             <li>
                 <h5>Front-End Developer <span class="duration"><i class="fa fa-calendar color"></i> 2010 - 2011</span></h5>
                 <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
-                <p>Information test.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
             </li>
 
         </ul>
@@ -682,14 +706,14 @@
         <!-- .attributes -->
         <ul class="attributes">
             <li class="first">
-                <h5>Master of Software Engineering<span class="duration"><i class="fa fa-calendar color"></i> 2015 - 2017</span></h5>
-                <h6><span class="fa fa-book"></span>Nanjing University</h6>
-                <p>Information test.</p>
+                <h5>Master of Engineering <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2013</span></h5>
+                <h6><span class="fa fa-book"></span> Name of University</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
             </li>
             <li>
-                <h5>Bachelor of Information and Computing Science <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2015</span></h5>
-                <h6><span class="fa fa-book"></span> Nanjing Tech University</h6>
-                <p>Information test.</p>
+                <h5>Bachelor of Engineering <span class="duration"><i class="fa fa-calendar color"></i> 2010 - 2011</span></h5>
+                <h6><span class="fa fa-book"></span> Name of University</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
             </li>
         </ul>
         <!-- /.attributes -->
@@ -708,12 +732,12 @@
             <li class="first">
                 <h5>Graphic &amp; Art Direction <span class="duration"><i class="fa fa-calendar color"></i> 2013 - 2014</span></h5>
                 <h6><span class="fa fa-trophy"></span> Name of Institute</h6>
-                <p>Information test.</p>
+                <p>Emi Phasellus congue auctor risuspon, eget males. Pellentes que un imperdiet, odio quis orn sollicitud. Sed vitae lectus elementum mauris.</p>
             </li>
             <li>
                 <h5>Design &amp; Art Direction <span class="duration"><i class="fa fa-calendar color"></i> 2012 - 2013</span></h5>
                 <h6><span class="fa fa-trophy"></span> Name of Institute</h6>
-                <p>Information test.</p>
+                <p>Emi Phasellus congue auctor risuspon, eget males. Pellentes que un imperdiet, odio quis orn sollicitud. Sed vitae lectus elementum mauris.</p>
             </li>
   
         </ul>
@@ -761,7 +785,8 @@
 </div>
  </div>
      
-       
+     
+     
      
      <div style="clear: both"></div>   
 </div>
@@ -2182,13 +2207,13 @@
                 <div id="show">
                     <div class="clean-check" style="padding-left: 30px;">
 
-                        <input type="radio" id="pb1" name="page_builder" value="resume.html"  checked />
+                        <input type="radio" id="pb1" name="page_builder" value="resume.html"   />
                         <label for="pb1"><span></span>Style 1</label>
 
                         <input type="radio" id="pb2" name="page_builder" value="page-builder-2.html"  />
                         <label for="pb2"><span></span>Style 2</label>
 
-                        <input type="radio" id="pb3" name="page_builder" value="page-builder-3.html"  />
+                        <input type="radio" id="pb3" name="page_builder" value="page-builder-3.html" checked />
                         <label for="pb3"><span></span>Style 3</label>
 
                         <input type="radio" id="pb4" name="page_builder" value="page-builder-4.html"  />
@@ -2261,25 +2286,21 @@
             <div id="button-reset"><a href="#" class="button color blue boxed">Reset</a></div>
         </div>
         <!-- End Switcher -->
+        <!-- End Switcher -->
 
 
 
         <!-- jquery | jQuery 1.11.0 -->
         <!-- Credits: http://jquery.com -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
- 		
-        <!-- Js | bootstrap -->
-        <!-- Credits: http://getbootstrap.com/ -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script> 
-        
+
         <!-- Js | jquery.cycle -->
         <!-- Credits: https://github.com/malsup/cycle2 -->
         <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
-        
-        <!-- jquery | rotate and portfolio -->
-        <!-- Credits: http://jquery.com -->
-        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script> 
-        <script type="text/javascript" src="js/HeadImage.js"></script>
+
+        <!-- Js | bootstrap -->
+        <!-- Credits: http://getbootstrap.com/ -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script> 
 
         <!-- Js | easyResponsiveTabs -->
         <!-- Credits: http://webtrendset.com/demo/easy-responsive-tabs/Index.html -->
@@ -2297,19 +2318,25 @@
         <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
         <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>		
 
-        <!-- jquery | prettyPhoto -->
-        <!-- Credits: http://www.no-margin-for-errors.com/ -->
-        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-        
         <!-- Js | gmaps -->
         <!-- Credits: http://maps.google.com/maps/api/js?sensor=true-->
         
         <script type="text/javascript" src="js/gmaps.min.js"></script>
 
- 		<!-- Js | Js -->
+        <!-- Js | Js -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -->
         <script type="text/javascript" src="js/main.js"></script>
-        
+
+        <!-- jquery | rotate and portfolio -->
+        <!-- Credits: http://jquery.com -->
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script> 
+        <script type="text/javascript" src="js/HeadImage.js"></script>
+
+        <!-- jquery | prettyPhoto -->
+        <!-- Credits: http://www.no-margin-for-errors.com/ -->
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+
         <!-- code js for image rotate -->
         <script type="text/javascript">
 
