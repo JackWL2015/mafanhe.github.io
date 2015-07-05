@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://500d.me/editresume/resume/13.jhtml?itemid=75&resumeId=30085 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="keywords" content="简历在线编辑,在线编辑">
+		<meta name="description" content="简历在线编辑，多个主题选择，不同主题导出不同简历。">
+		<meta name="renderer" content="webkit">
+		<title>在线简历模板</title>
+		
+		<link rel="stylesheet" type="text/css" href="./在线简历模板_files/style.css">
+		<link rel="stylesheet" type="text/css" href="./在线简历模板_files/base.css">
+		<link rel="stylesheet" type="text/css" href="./在线简历模板_files/new.css" media="all">
+		<script src="./在线简历模板_files/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript" src="./在线简历模板_files/jquery-1.8.0.js"></script>
+		<script type="text/javascript" src="./在线简历模板_files/jquery.imgareaselect.js"></script>
+		<script type="text/javascript" src="./在线简历模板_files/base.js"></script>
+		<script src="./在线简历模板_files/common.js" type="text/javascript"></script>
+		<script src="./在线简历模板_files/utils.js" type="text/javascript"></script>
+		<script type="text/javascript" src="./在线简历模板_files/jquery-ui.min.js"></script>
+		<script src="./在线简历模板_files/ajaxfileupload.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="./在线简历模板_files/jm0206.css">
+		<style type="text/css">
+::-webkit-input-placeholder{color:transparent;}
+html, body{background:#fff;}
+.base_style{margin:0 auto;box-shadow:none;}
+.box_design{margin:0 auto;}
+.editresume_right{width:1100px;background:#fff;margin:0 auto;float:none;}
+.base_style .edit_item:hover .delete{display:none;}
+.base_style .edit_item:hover .util_btn{display:none;}
+.edit_border:hover{border: 1px solid transparent;box-shadow:0 0 4px transparent inset;}
+			/**修改背景*/
+			.j1{background:url("http://static.500d.me/resources/500d/editresume/images/jm0206/j1_bg.jpg") repeat-y;}
+			.j2{background:url("http://static.500d.me/resources/500d/editresume/images/jm0206/j2_bg.jpg") repeat-y;}
+			.j3{background:url("http://static.500d.me/resources/500d/editresume/images/jm0206/j3_bg.jpg") repeat-y;}
+		</style>
+	</head>
+
+	<body>
+		<!--右边-->
+		<div class="editresume_right left edit_right">
+			<div class="editresumecon">
+	            <div class="box_design">
+					<!--编辑区域-->
+					<div id="page" class="base_style base_title j2" style="height: 1555px; background: url(http://static.500d.me/resources/500d/editresume/images/watermark.png) repeat, url(http://static.500d.me/resources/500d/editresume/images/jm0206/j2_bg.jpg) repeat-y;">
+						<div class="page_head"></div>
+						<div id="edit_area">
+				        	<div class="edit_item edit_base edit_want nameTitle">
+				            	<h1 class="edit_name edit_border"><input placeholder="姓名" value="马饭盒" maxlength="10"></h1>
+				            	<h2 class="edit_want_job edit_border"><input placeholder="求职目标" value="" maxlength="20"></h2>
+				            </div>
+							<div id="base_title" class="edit_item base_title">
+								<div class="edit_area edit_item edit_base edit_want" style="boder:none;">
+									<div class="base_head">
+										<img id="changehead" width="100%" height="100%" alt="头像" src="./在线简历模板_files/bac996c4-d1c5-44c1-8e74-8c37bd8f0ae7_cut_.jpg">
+										<input type="file" class="hidden" value="/upload/uimage/201507/bac996c4-d1c5-44c1-8e74-8c37bd8f0ae7_cut_.jpg">
+										<span class="edit_photo edit_border">/upload/uimage/201507/bac996c4-d1c5-44c1-8e74-8c37bd8f0ae7_cut_.jpg</span>
+										<div class="head_notice">点击替换</div>
+									</div>
+									<div class="base_msg">
+										<ul>
+											<li>
+												<div class="base_age edit_age edit_border"><input placeholder="年龄/生日" value="22岁" maxlength="12"></div>
+												<div class="base_address edit_place_abode edit_border"><input placeholder="居住地" value="江苏省徐州市" maxlength="12"></div>
+												<div class="base_mobile edit_mobile edit_border"><input placeholder="手机号码" value="18251901638" maxlength="11"></div>
+												<div class="base_email edit_email edit_border"><input placeholder="电子邮箱" value="827149941" maxlength="30"></div>
+											</li>
+										</ul>
+									</div>
+									
+								</div>
+							</div>
+							<div id="base_content" class="base_content ui-sortable"><div id="edualldiv" class="edit_item " data-sort="edit_edu_title">
+									<ul class="util_btn">
+										<li class="up" data-key="up" onclick="itemChange(this);"></li>
+										<li class="move ui-sortable-handle" onclick="itemChange(this);"></li>
+										<li class="add" data-key="add" data-id="edit_edu" onclick="itemChange(this);"></li>
+										<li class="down" data-key="down" onclick="itemChange(this);"></li>
+									</ul>
+									<dl class="edit_area edit_edu"><!-- draggable="true"-->
+										<dt class="title_h"><span class="edit_edu_title"><input value="教育背景" type="text" maxlength="6" readonly=""></span></dt>
+										<dd class="edit_area_items" id="edit_edu_items">
+											<span class="ico"></span>
+										<div class="msg_content edit_area_item">						<div class="delete"></div>						<div class="msg_title">							<span class="msg_title_time edit_edu_time edit_border"><input placeholder="xxxx.xx-xxxx.xx" maxlength="15"></span>							<span class="msg_title_company edit_edu_school edit_border"><input placeholder="学校" maxlength="20"></span>							<span class="msg_title_post edit_edu_major edit_border"><input placeholder="专业" maxlength="20"></span>						</div>						<div class="edit_edu_major_info edit_border" contenteditable="true" spellcheck="false"><p>主修课程</p><p>数学分析、高等代数与解析几何、数值分析、数学建模、Matlab编程、概率论与数理统计、离散数学、模式识别、信息安全、程序设计、JAVA WEB、数据库系统、XML、软件工程、JSP、操作系统原理、Linux编程、J2EE框架、计算机网络、数据结构、UML建模与设计模式、Android。</p></div>					</div><div class="msg_content edit_area_item">						<div class="delete"></div>						<div class="msg_title">							<span class="msg_title_time edit_edu_time edit_border"><input placeholder="xxxx.xx-xxxx.xx" maxlength="15"></span>							<span class="msg_title_company edit_edu_school edit_border"><input placeholder="学校" maxlength="20"></span>							<span class="msg_title_post edit_edu_major edit_border"><input placeholder="专业" maxlength="20"></span>						</div>						<div class="edit_edu_major_info edit_border" contenteditable="true" spellcheck="false"><p></p></div>					</div></dd>
+									</dl>
+								</div><div id="expercalldiv" class="edit_item " data-sort="edit_work_title">
+									<ul class="util_btn">
+										<li class="up" data-key="up" onclick="itemChange(this);"></li>
+										<li class="move ui-sortable-handle" onclick="itemChange(this);"></li>
+										<li class="add" data-key="add" data-id="edit_work" onclick="itemChange(this);"></li>
+										<li class="down" data-key="down" onclick="itemChange(this);"></li>
+									</ul>
+									<dl class="edit_area edit_work"><!-- draggable="true"-->
+										<dt class="title_h"><span class="edit_work_title"><input value="工作经验" type="text" maxlength="6" readonly=""></span></dt>
+										<dd class="edit_area_items" id="edit_work_items">
+											<span class="ico"></span>
+										<div class="msg_content edit_area_item">						<div class="delete"></div>						<div class="msg_title">							<span class="msg_title_time edit_work_time edit_border"><input placeholder="xxxx.xx-xxxx.xx" maxlength="15"></span>							<span class="msg_title_company edit_work_company edit_border"><input placeholder="公司名称" maxlength="20"></span>							<span class="msg_title_post edit_work_position edit_border"><input placeholder="所处职位" maxlength="20"></span>						</div>						<div class="edit_work_introduce edit_border" contenteditable="true" spellcheck="false"><p>1、法院信息化建设</p></div>					</div></dd>
+									</dl>
+								</div><div id="experdalldiv" class="edit_item " data-sort="experdall">
+									<ul class="util_btn">
+										<li class="up" data-key="up" onclick="itemChange(this);"></li>
+										<li class="move ui-sortable-handle" onclick="itemChange(this);"></li>
+										<li class="add" data-key="add" data-id="edit_work" onclick="itemChange(this);"></li>
+										<li class="down" data-key="down" onclick="itemChange(this);"></li>
+									</ul>
+									<dl class="edit_area edit_experdall"><!-- draggable="true"-->
+										<dt class="title_h"><span class="edit_experdall_title"><input value="项目经历" type="text" maxlength="6" readonly=""></span></dt>
+										<dd id="edit_experdall_info" class="edit_area_items">
+											<span class="ico"></span>
+										<div class="msg_content edit_area_item">						<div class="delete"></div>						<div class="msg_title">							<span class="msg_title_time edit_work_time edit_border"><input placeholder="xxxx.xx-xxxx.xx" maxlength="15"></span>							<span class="msg_title_company edit_work_company edit_border"><input maxlength="20" placeholder="项目名称"></span>						</div>						<div class="edit_work_introduce edit_border" contenteditable="true" spellcheck="false"><p>详情请见github</p></div>					</div></dd>
+									</dl>
+								</div><div id="cartdiv" class="edit_item " data-sort="edit_cart_title">
+									<ul class="util_btn">
+										<li class="up" data-key="up" onclick="itemChange(this);"></li>
+										<li class="move ui-sortable-handle" onclick="itemChange(this);"></li>
+										<li class="down" data-key="down" onclick="itemChange(this);"></li>
+									</ul>
+									<dl class="edit_area edit_cart"><!-- draggable="true"-->
+										<dt class="title_h"><span class="edit_cart_title"><input value="技能证书" type="text" maxlength="6" readonly=""></span></dt>
+										<dd>
+											<span class="ico"></span>
+											<div class="edit_cart_skill edit_border" contenteditable="true" spellcheck="false"><p>CET-6，优秀的听说写能力</p><p>JAVA高级工程师</p><p></p></div>
+										</dd>
+									</dl>
+								</div><div id="selfdiv" class="edit_item " data-sort="edit_self_title">
+									<ul class="util_btn">
+										<li class="up" data-key="up" onclick="itemChange(this);"></li>
+										<li class="move ui-sortable-handle" onclick="itemChange(this);"></li>
+										<li class="down" data-key="down" onclick="itemChange(this);"></li>
+									</ul>
+									<dl class="edit_area edit_base"><!-- draggable="true"-->
+										<dt class="title_h"><span class="edit_self_title"><input value="自我评价" type="text" maxlength="6" readonly=""></span></dt>
+										<dd class="">
+											<span class="ico"></span>
+											<div class="edit_self_assessment edit_border" contenteditable="true" spellcheck="false"><p>本人是信息与计算科学、软件工程专业毕业生，有丰富的数学、计算机、软件等知识体系做基础；有独到的见解和经验个性开朗，容易相处，团队荣誉感强</p></div>
+										</dd>
+									</dl>
+								</div>
+								
+								
+								
+								
+								
+								<div id="experballdiv" class="edit_item hidden" data-sort="experball">
+									<ul class="util_btn">
+										<li class="up" data-key="up" onclick="itemChange(this);"></li>
+										<li class="move ui-sortable-handle" onclick="itemChange(this);"></li>
+										<li class="add" data-key="add" data-id="edit_work" onclick="itemChange(this);"></li>
+										<li class="down" data-key="down" onclick="itemChange(this);"></li>
+									</ul>
+									<dl class="edit_area edit_experball"><!-- draggable="true"-->
+										<dt class="title_h"><span class="edit_experball_title"><input value="校外实践" type="text" maxlength="6" readonly=""></span></dt>
+										<dd id="edit_experball_info" class="edit_area_items">
+											<span class="ico"></span>
+										<div class="msg_content edit_area_item">						<div class="delete"></div>						<div class="msg_title">							<span class="msg_title_time edit_work_time edit_border"><input placeholder="xxxx.xx-xxxx.xx" maxlength="15"></span>							<span class="msg_title_company edit_work_company edit_border"><input placeholder="公司名称" maxlength="20"></span>							<span class="msg_title_post edit_work_position edit_border"><input maxlength="20" placeholder="职位"></span>						</div>						<div class="edit_work_introduce edit_border" contenteditable="true" spellcheck="false"><p>校外实践内容</p></div>					</div></dd>
+									</dl>
+								</div>
+								<div id="experalldiv" class="edit_item hidden" data-sort="experall">
+									<ul class="util_btn">
+										<li class="up" data-key="up" onclick="itemChange(this);"></li>
+										<li class="move ui-sortable-handle" onclick="itemChange(this);"></li>
+										<li class="add" data-key="add" data-id="edit_work" onclick="itemChange(this);"></li>
+										<li class="down" data-key="down" onclick="itemChange(this);"></li>
+									</ul>
+									<dl class="edit_area edit_experall"><!-- draggable="true"-->
+										<dt class="title_h"><span class="edit_experall_title"><input value="校内实践" type="text" maxlength="6" readonly=""></span></dt>
+										<dd id="edit_experall_info" class="edit_area_items">
+											<span class="ico"></span>
+										<div class="msg_content edit_area_item">						<div class="delete"></div>						<div class="msg_title">							<span class="msg_title_time edit_work_time edit_border"><input placeholder="xxxx.xx-xxxx.xx" maxlength="15"></span>							<span class="msg_title_company edit_work_company edit_border"><input placeholder="社团名称" maxlength="20"></span>							<span class="msg_title_post edit_work_position edit_border"><input maxlength="20" placeholder="职位"></span>						</div>						<div class="edit_work_introduce edit_border" contenteditable="true" spellcheck="false"><p>校内实践内容</p></div>					</div></dd>
+									</dl>
+								</div>
+								<div id="honordiv" class="edit_item hidden" data-sort="honor">
+									<ul class="util_btn">
+										<li class="up" data-key="up" onclick="itemChange(this);"></li>
+										<li class="move ui-sortable-handle" onclick="itemChange(this);"></li>
+										<li class="down" data-key="down" onclick="itemChange(this);"></li>
+									</ul>
+									<dl class="edit_area edit_honor"><!-- draggable="true"-->
+										<dt class="title_h"><span class="edit_honor_title"><input value="奖项荣誉" type="text" maxlength="6" readonly=""></span></dt>
+										<dd>
+											<span class="ico"></span>
+											<div class="edit_honor_info edit_border" contenteditable="true" spellcheck="false"><p>您获得的荣誉</p></div>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div id="theClear" class="clear"></div>
+						</div>
+					</div>
+		            <!--编辑区域-->
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			// 编辑信息
+			preview = true;
+			split_height = 0;
+			var isIE = false;
+			$(document).ready(function(){		
+				if($.browser.msie)
+					isIE = true;
+				// 荣誉
+				var honor = "您获得的荣誉";
+				$("#honordiv").find(".edit_honor_info").html(replaceBr(isIE, honor));
+				// 自我评价
+				var self = "本人是信息与计算科学、软件工程专业毕业生，有丰富的数学、计算机、软件等知识体系做基础；有独到的见解和经验个性开朗，容易相处，团队荣誉感强";
+				$("#selfdiv").find(".edit_self_assessment").html(replaceBr(isIE, self));
+				// 技能证书
+				var skill = "CET-6，优秀的听说写能力<br />JAVA高级工程师<br />";
+				$("#cartdiv").find(".edit_cart_skill").html(replaceBr(isIE, skill));
+				// 项目经历
+				var experdall = [["","","详情请见github","true",""]];
+				for(var i = 0; i < experdall.length; i++){
+					var time = experdall[i][0];
+					var position = experdall[i][1];
+					var text = $("<div class=\"msg_content edit_area_item\">\
+						<div class=\"delete\"></div>\
+						<div class=\"msg_title\">\
+							<span class=\"msg_title_time edit_work_time\"><input placeholder=\"xxxx.xx-xxxx.xx\" maxlength=\"15\" /></span>\
+							<span class=\"msg_title_company edit_work_company\"><input maxlength=\"20\" placeholder=\"项目名称\" /></span>\
+						</div>\
+						<div class=\"edit_work_introduce\" contenteditable=\"true\" spellcheck=\"false\"></div>\
+					</div>");
+					text.find("input:eq(0)").val(time);
+					text.find("input:eq(1)").val(position);
+					var html = experdall[i][2] + "";			
+					text.find("div.edit_work_introduce").html(replaceBr(isIE, html));
+					$("#edit_experdall_info").append(text);
+				}
+				// 校外实践
+				var experball = [["","","校外实践内容","true",""]];
+				for(var i = 0; i < experball.length; i++){
+					var time = experball[i][0];
+					var company = experball[i][4];
+					var position = experball[i][1];
+					var text = $("<div class=\"msg_content edit_area_item\">\
+						<div class=\"delete\"></div>\
+						<div class=\"msg_title\">\
+							<span class=\"msg_title_time edit_work_time\"><input placeholder=\"xxxx.xx-xxxx.xx\" maxlength=\"15\" /></span>\
+							<span class=\"msg_title_company edit_work_company\"><input placeholder=\"公司名称\" maxlength=\"20\" /></span>\
+							<span class=\"msg_title_post edit_work_position\"><input maxlength=\"20\" placeholder=\"职位\"/></span>\
+						</div>\
+						<div class=\"edit_work_introduce\" contenteditable=\"true\" spellcheck=\"false\"></div>\
+					</div>");
+					text.find("input:eq(0)").val(time);
+					text.find("input:eq(1)").val(company);
+					text.find("input:eq(2)").val(position);
+					var html = experball[i][2] + "";			
+					text.find("div.edit_work_introduce").html(replaceBr(isIE, html));
+					$("#edit_experball_info").append(text);
+				}
+				// 校内实践
+				var experall = [["","","校内实践内容","true",""]];
+				for(var i = 0; i < experall.length; i++){
+					var time = experall[i][0];
+					var company = experall[i][4];
+					var position = experall[i][1];
+					var text = $("<div class=\"msg_content edit_area_item\">\
+						<div class=\"delete\"></div>\
+						<div class=\"msg_title\">\
+							<span class=\"msg_title_time edit_work_time\"><input placeholder=\"xxxx.xx-xxxx.xx\" maxlength=\"15\" /></span>\
+							<span class=\"msg_title_company edit_work_company\"><input placeholder=\"社团名称\" maxlength=\"20\" /></span>\
+							<span class=\"msg_title_post edit_work_position\"><input maxlength=\"20\" placeholder=\"职位\"/></span>\
+						</div>\
+						<div class=\"edit_work_introduce\" contenteditable=\"true\" spellcheck=\"false\"></div>\
+					</div>");
+					text.find("input:eq(0)").val(time);
+					text.find("input:eq(1)").val(company);
+					text.find("input:eq(2)").val(position);
+					var html = experall[i][2] + "";			
+					text.find("div.edit_work_introduce").html(replaceBr(isIE, html));
+					$("#edit_experall_info").append(text);
+				}
+				// 工作经历
+				var expercall = [["2015.6至今","开发工程师","1、法院信息化建设","true","天津高级人民法院",""]];
+				for(var i = 0; i < expercall.length; i++){
+					var time = expercall[i][0];
+					var company = expercall[i][4];
+					var position = expercall[i][1];
+					var text = $("<div class=\"msg_content edit_area_item\">\
+						<div class=\"delete\"></div>\
+						<div class=\"msg_title\">\
+							<span class=\"msg_title_time edit_work_time\"><input placeholder=\"xxxx.xx-xxxx.xx\" maxlength=\"15\" /></span>\
+							<span class=\"msg_title_company edit_work_company\"><input placeholder=\"公司名称\" maxlength=\"20\" /></span>\
+							<span class=\"msg_title_post edit_work_position\"><input placeholder=\"所处职位\" maxlength=\"20\" /></span>\
+						</div>\
+						<div class=\"edit_work_introduce\" contenteditable=\"true\" spellcheck=\"false\"></div>\
+					</div>");
+					text.find("input:eq(0)").val(time);
+					text.find("input:eq(1)").val(company);
+					text.find("input:eq(2)").val(position);
+					var html = expercall[i][2] + "";			
+					text.find("div.edit_work_introduce").html(replaceBr(isIE, html));
+					$("#edit_work_items").append(text);
+				}		
+				// 教育背景
+				var eduall = [["2011.09-2015.07","信息与计算科学","主修课程<br />数学分析、高等代数与解析几何、数值分析、数学建模、Matlab编程、概率论与数理统计、离散数学、模式识别、信息安全、程序设计、JAVA WEB、数据库系统、XML、软件工程、JSP、操作系统原理、Linux编程、J2EE框架、计算机网络、数据结构、UML建模与设计模式、Android。","true","南京工业大学","",""],["2015.9-2017.7","软件工程","","true","南京大学","",""]];
+				for(var i = 0;i < eduall.length; i++){
+					var time = eduall[i][0];
+					var school = eduall[i][4];
+					var major = eduall[i][1];
+					var text = $("<div class=\"msg_content edit_area_item\">\
+						<div class=\"delete\"></div>\
+						<div class=\"msg_title\">\
+							<span class=\"msg_title_time edit_edu_time\"><input placeholder=\"xxxx.xx-xxxx.xx\" maxlength=\"15\" /></span>\
+							<span class=\"msg_title_company edit_edu_school\"><input placeholder=\"学校\" maxlength=\"20\" /></span>\
+							<span class=\"msg_title_post edit_edu_major\"><input placeholder=\"专业\" maxlength=\"20\" /></span>\
+						</div>\
+						<div class=\"edit_edu_major_info\" contenteditable=\"true\" spellcheck=\"false\"></div>\
+					</div>");
+					text.find("input:eq(0)").val(time);
+					text.find("input:eq(1)").val(school);
+					text.find("input:eq(2)").val(major);
+					var html = eduall[i][2] + "";
+					text.find("div.edit_edu_major_info").html(replaceBr(isIE, html));
+					$("#edit_edu_items").append(text);	
+				}
+				// 自定义内容
+				var custom = "";
+				for(var i = 0; i < custom.length; i++){
+					var title = custom[i][0];
+					var customid = custom[i][3];
+					if(!customid || customid == "")
+						customid = guid();
+					var option = "<li>" + title + "<span data-id='" + customid + "'";
+					if(custom[i][2] == "false")
+						option = option + " class='noselect'";
+					option = option + "></span></li>";
+					$(".m-jlmk_list").append(option);
+					var customHtml = "<div id='" + customid + "div' class='edit_item edit_custom edit_area_item";
+					if(custom[i][2] == "false")
+						customHtml += " hidden"
+					var text = $(customHtml + "' data-sort='" + customid + "'>\
+						<ul class='util_btn'>\
+							<li class='up' data-key='up' onClick='itemChange(this);'></li>\
+							<li class='move ui-sortable-handle' onClick='itemChange(this);'></li>\
+							<li class='down' data-key='down' onClick='itemChange(this);'></li>\
+							<li><input type='hidden' value='"+ custom[i][2] +"'/></li>\
+						</ul>\
+						<div class=\"delete\"></div>\
+						<dl class='edit_area'>\
+							<dt><span class='edit_custom_title edit_border'><input type='text' maxlength='6'/></span></dt>\
+							<dd>\
+								<span class='ico'></span>\
+								<div class='edit_custom_content edit_border' contenteditable='true' spellcheck='false'></div>\
+							</dd>\
+						</dl>\
+					</div>");
+					text.find("input:eq(1)").val(title);
+					var html = custom[i][1] + "";
+					text.find("div.edit_custom_content").html(replaceBr(isIE, html));
+					$("#base_content").append(text);		
+				}
+				// 调整顺序
+				var exchange = "edu_title-work_title-experdall-cart_title-self_title";
+				if("undefined" != typeof(exchange) || exchange != ""){
+					var text = exchange.split("-");
+					var order = new Object;
+					for(var i = 0; i < text.length; i++){
+						order["text" + i] = text[i];	
+					}
+					$("#base_content").find(".edit_item").each(function(){//遍历记录
+						var title = $(this).attr("data-sort");
+						if(title.indexOf("edit_") == 0)
+							title = title.substring(edit_head.length);
+						for(var i = 0; i < text.length; i++){
+							if(order["text" + i] == title){
+								order["content" + i] = this;
+							}
+						}
+					});
+					// 添加
+					for(var i = text.length - 1; i >= 0; i--){
+						$("#base_content").prepend(order["content" + i]);
+					}
+				}
+				addEdit_border();
+				checkPageSize();
+			});
+			var watermarkurl = 'url("http://static.500d.me/resources/500d/editresume/images/watermark.png")';
+			var pagebackgroundurl = $("#page").css("background-image");
+			function setWatermark(){
+				$("#page").css("background", watermarkurl + " repeat," + pagebackgroundurl + " repeat-y");
+				setTimeout(setWatermark, 4 * 1000);
+			}
+			setWatermark();
+		</script>
+	
+</body></html>
